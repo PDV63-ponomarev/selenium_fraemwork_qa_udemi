@@ -1,9 +1,11 @@
 package tests.searchapartments;
 
+import org.testng.annotations.Test;
 import tests.base.BaseTest;
 
 public class SeacrhApartTest extends BaseTest {
 
+    @Test
     public void checkIsRederectToListing(){
 
         basePage.open("https://realt.by");
@@ -12,5 +14,7 @@ public class SeacrhApartTest extends BaseTest {
                 .enterCountRooms()
                 .clickToFind();
 
+        realtListingPage
+                .checkCountCards();
     }
 }
