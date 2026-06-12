@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/js/java/code/selenium_fraemwork_qa_udemi">
+        <classes>
+            <class name="tests.searchapartments.TestOUT">
+            </class>
+            <class name="tests.searchapartments.TestOUT2">
+            </class>
+        </classes>
+    </test>
+</suite>
