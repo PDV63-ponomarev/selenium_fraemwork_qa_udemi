@@ -24,4 +24,9 @@ public class TestOUT2 {
         System.out.println("Double test");
     }
 
+    //    тест выполняется 2 раза, может упасть в 50%
+    @Test(invocationCount = 2,successPercentage = 50)
+    public void testDoubleTrouble(){
+        System.out.println("Double test");}
+
 }
